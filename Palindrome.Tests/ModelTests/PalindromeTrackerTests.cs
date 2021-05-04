@@ -6,6 +6,11 @@ namespace Palindrome.Tests
   [TestClass]
   public class PalindromeTrackerTests
   {
-    // Test methods go here
+    [TestMethod]
+    public void Is_Word_A_Palindrome()
+    {
+      PalindromeTracker tracker = new PalindromeTracker();
+      Assert.AreEqual(true, tracker.IsWordAPalindrome("racecar"));
+    }
   }
 }
