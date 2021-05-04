@@ -40,6 +40,3 @@ namespace Palindrome.Tests
     }
   }
 }
-
-// is rAceCar
-// IsLeapYear_NumberNotDivisibleByFour_False
